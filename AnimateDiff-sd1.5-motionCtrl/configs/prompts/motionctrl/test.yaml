@@ -1,0 +1,238 @@
+
+# PanRight
+- inference_config: "configs/inference/inference-v3.yaml"
+  motion_module:    "models/Motion_Module/v3_sd15_mm.ckpt"
+  cmcm_checkpoint_path: "models/MotionCtrl/motionctrl_animatediff_cmcm.ckpt"
+
+#  motion_module_lora_configs:
+#    - path:  "models/MotionLoRA/v2_lora_PanRight.ckpt"
+#      alpha: 1.0
+
+  dreambooth_path: "models/DreamBooth_LoRA/realisticVisionV60B1_v51VAE.safetensors"
+  lora_model_path: ""
+
+  seed:           43242532350557906
+  steps:          25
+  guidance_scale: 7.5
+
+  prompt:
+    - "photo of coastline, rocks, storm weather, wind, waves, lightning, 8k uhd, dslr, soft lighting, high quality, film grain, Fujifilm XT3"
+
+  n_prompt:
+    - "blur, haze, deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime, mutated hands and fingers, deformed, distorted, disfigured, poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, disconnected limbs, mutation, mutated, ugly, disgusting, amputation"
+  RT_paths:
+    #- "examples/camera_poses/test_camera_d971457c81bca597.json"
+    - "examples/camera_poses/test_camera_R_1.0x.json"
+    - "examples/camera_poses/test_camera_R_2.0x.json"
+    - "examples/camera_poses/test_camera_U_2.0x.json"
+    - "examples/camera_poses/test_camera_Round-RI_90.json"
+    # - "examples/camera_poses/test_camera_Round-ZoomIn.json"
+    # - "examples/camera_poses/test_camera_SPIN-DU.json"
+    #- "examples/camera_poses/test_camera_SPIN-LR.json"
+
+# PanRight
+- inference_config: "configs/inference/inference-v3.yaml"
+  motion_module:    "models/Motion_Module/v3_sd15_mm.ckpt"
+  cmcm_checkpoint_path: "models/MotionCtrl/motionctrl_animatediff_cmcm.ckpt"
+
+#  motion_module_lora_configs:
+#    - path:  "models/MotionLoRA/v2_lora_PanRight.ckpt"
+#      alpha: 1.0
+
+  dreambooth_path: "models/DreamBooth_LoRA/realisticVisionV60B1_v51VAE.safetensors"
+  lora_model_path: ""
+
+  seed:           43242532350557906
+  steps:          25
+  guidance_scale: 7.5
+
+  prompt:
+    - "A serene portrait of a woman with a steady gaze, her long hair resting calmly, while the camera sweeps horizontally from one side to the other. The background is softly blurred, with subtle bokeh highlights. Her expression and features are rendered in ultra-realistic 8k resolution with Canon EOS-level clarity, studio lighting, and perfectly detailed eyes and skin."
+  n_prompt:
+    - "blur, pixelated, cgi, cartoon, sketch, 3d, distorted face, wrong anatomy, deformed eyes, deformed nose, extra eyes, low quality, bad lighting, wrong proportions, distorted hands, exaggerated expression, missing facial features, uncanny valley, moving face, turning head"
+  RT_paths:
+    #- "examples/camera_poses/test_camera_d971457c81bca597.json"
+    - "examples/camera_poses/test_camera_R_1.0x.json"
+    - "examples/camera_poses/test_camera_R_2.0x.json"
+    - "examples/camera_poses/test_camera_U_2.0x.json"
+    # - "examples/camera_poses/test_camera_Round-ZoomIn.json"
+    # - "examples/camera_poses/test_camera_SPIN-DU.json"
+    #- "examples/camera_poses/test_camera_SPIN-LR.json"
+
+# PanRight
+- inference_config: "configs/inference/inference-v3.yaml"
+  motion_module:    "models/Motion_Module/v3_sd15_mm.ckpt"
+  cmcm_checkpoint_path: "models/MotionCtrl/motionctrl_animatediff_cmcm.ckpt"
+
+#  motion_module_lora_configs:
+#    - path:  "models/MotionLoRA/v2_lora_PanRight.ckpt"
+#      alpha: 1.0
+
+  dreambooth_path: "models/DreamBooth_LoRA/realisticVisionV60B1_v51VAE.safetensors"
+  lora_model_path: ""
+
+  seed:           43242532350557906
+  steps:          25
+  guidance_scale: 7.5
+
+  prompt:
+    - "a majestic lion standing perfectly still in the middle of a golden savannah, its entire body motionless as the camera moves horizontally from left to right, revealing the expansive savannah and setting sun in the background, ultra-realistic, 8k, detailed fur, dramatic lighting, Canon EOS R5, wildlife photography, dynamic composition, nature, cinematic"
+  n_prompt:
+    - "blur, cgi, cartoon, 3d, unrealistic, distorted, moving lion, turning head, tail movement, floating fur, extra limbs, poor anatomy, low quality, lack of detail, toy-like, artificial"
+
+  RT_paths:
+    #- "examples/camera_poses/test_camera_d971457c81bca597.json"
+    - "examples/camera_poses/test_camera_R_1.0x.json"
+    - "examples/camera_poses/test_camera_R_2.0x.json"
+    # - "examples/camera_poses/test_camera_Round-ZoomIn.json"
+    # - "examples/camera_poses/test_camera_SPIN-DU.json"
+    #- "examples/camera_poses/test_camera_SPIN-LR.json"
+
+
+# PanRight
+- inference_config: "configs/inference/inference-v3.yaml"
+  motion_module:    "models/Motion_Module/v3_sd15_mm.ckpt"
+  cmcm_checkpoint_path: "models/MotionCtrl/motionctrl_animatediff_cmcm.ckpt"
+
+#  motion_module_lora_configs:
+#    - path:  "models/MotionLoRA/v2_lora_PanRight.ckpt"
+#      alpha: 1.0
+
+  dreambooth_path: "models/DreamBooth_LoRA/realisticVisionV60B1_v51VAE.safetensors"
+  lora_model_path: ""
+
+  seed:           43242532350557906
+  steps:          25
+  guidance_scale: 7.5
+
+  prompt:
+    - "futuristic humanoid robot standing perfectly still in a high-tech lab, its mechanical arms, LED lights, and chrome finish completely motionless, as the camera moves horizontally from left to right, revealing the lab equipment, computer screens, and futuristic machinery in the background, ultra-realistic, 8k, high detail, dslr, sci-fi, sharp lines, intricate design, dynamic lighting"
+  n_prompt:
+    - "blur, cgi, 3d render, cartoon, sketch, poor quality, low detail, zoom, camera zoom in, toy-like, plastic, deformed, disjointed limbs, wrong proportions, crude textures, unrealistic, broken parts, cheap design, floating camera"
+  RT_paths:
+    #- "examples/camera_poses/test_camera_d971457c81bca597.json"
+    - "examples/camera_poses/test_camera_R_1.0x.json"
+    - "examples/camera_poses/test_camera_R_2.0x.json"
+    # - "examples/camera_poses/test_camera_Round-ZoomIn.json"
+    # - "examples/camera_poses/test_camera_SPIN-DU.json"
+    #- "examples/camera_poses/test_camera_SPIN-LR.json"
+
+
+# PanRight
+- inference_config: "configs/inference/inference-v3.yaml"
+  motion_module:    "models/Motion_Module/v3_sd15_mm.ckpt"
+  cmcm_checkpoint_path: "models/MotionCtrl/motionctrl_animatediff_cmcm.ckpt"
+
+#  motion_module_lora_configs:
+#    - path:  "models/MotionLoRA/v2_lora_PanRight.ckpt"
+#      alpha: 1.0
+
+  dreambooth_path: "models/DreamBooth_LoRA/realisticVisionV60B1_v51VAE.safetensors"
+  lora_model_path: ""
+
+  seed:           43242532350557906
+  steps:          25
+  guidance_scale: 7.5
+
+  prompt:
+    - "breathtaking mountain landscape, a still river running through the valley, with pine trees standing motionless, while the camera pans across the scene, showing the clear blue sky and the golden hour lighting, ultra-realistic, 8k, dslr, soft shadows, detailed textures, high quality"
+  n_prompt:
+    - "blur, haze, pixelated, low resolution, cgi, 3d render, cartoon, distorted, bad perspective, bad textures, wrong lighting, poor shadows, floating objects, unnatural colors, fake"
+  RT_paths:
+    #- "examples/camera_poses/test_camera_d971457c81bca597.json"
+    - "examples/camera_poses/test_camera_R_1.0x.json"
+    - "examples/camera_poses/test_camera_R_2.0x.json"
+    # - "examples/camera_poses/test_camera_Round-ZoomIn.json"
+    # - "examples/camera_poses/test_camera_SPIN-DU.json"
+    #- "examples/camera_poses/test_camera_SPIN-LR.json"
+
+
+
+
+# PanRight
+- inference_config: "configs/inference/inference-v3.yaml"
+  motion_module:    "models/Motion_Module/v3_sd15_mm.ckpt"
+  cmcm_checkpoint_path: "models/MotionCtrl/motionctrl_animatediff_cmcm.ckpt"
+
+#  motion_module_lora_configs:
+#    - path:  "models/MotionLoRA/v2_lora_PanRight.ckpt"
+#      alpha: 1.0
+
+  dreambooth_path: "models/DreamBooth_LoRA/realisticVisionV60B1_v51VAE.safetensors"
+  lora_model_path: ""
+
+  seed:           43242532350557906
+  steps:          25
+  guidance_scale: 7.5
+
+  prompt:
+    - "futuristic city skyline at night, glowing neon lights and skyscrapers standing completely still, while the camera moves across the scene showing flying vehicles and the vibrant background, ultra-realistic, 8k, dslr, dynamic lighting, high contrast, cyberpunk theme, vibrant colors"
+  n_prompt:
+    - "blur, cgi, cartoon, 3d render, pixelated, low quality, wrong lighting, deformed buildings, wrong proportions, toy-like, plastic, poorly drawn, artificial, low detail"
+  RT_paths:
+    #- "examples/camera_poses/test_camera_d971457c81bca597.json"
+    - "examples/camera_poses/test_camera_R_1.0x.json"
+    - "examples/camera_poses/test_camera_R_2.0x.json"
+    # - "examples/camera_poses/test_camera_Round-ZoomIn.json"
+    # - "examples/camera_poses/test_camera_SPIN-DU.json"
+    #- "examples/camera_poses/test_camera_SPIN-LR.json"
+
+
+# PanRight
+- inference_config: "configs/inference/inference-v3.yaml"
+  motion_module:    "models/Motion_Module/v3_sd15_mm.ckpt"
+  cmcm_checkpoint_path: "models/MotionCtrl/motionctrl_animatediff_cmcm.ckpt"
+
+#  motion_module_lora_configs:
+#    - path:  "models/MotionLoRA/v2_lora_PanRight.ckpt"
+#      alpha: 1.0
+
+  dreambooth_path: "models/DreamBooth_LoRA/realisticVisionV60B1_v51VAE.safetensors"
+  lora_model_path: ""
+
+  seed:           43242532350557906
+  steps:          25
+  guidance_scale: 7.5
+
+  prompt:
+    - "colorful coral reef standing motionless in clear blue water, while fish swim in the background and sun rays penetrate the ocean surface, the camera pans slowly across the reef, ultra-realistic, 8k, dslr, high detail, vibrant colors, dynamic composition, marine life, serene atmosphere"
+  n_prompt:
+    - "blur, cgi, cartoon, 3d, distorted, poor quality, pixelated, deformed animals, low detail, fake water, unnatural lighting, lack of depth, toy-like, plastic"
+  RT_paths:
+    #- "examples/camera_poses/test_camera_d971457c81bca597.json"
+    - "examples/camera_poses/test_camera_R_1.0x.json"
+    - "examples/camera_poses/test_camera_R_2.0x.json"
+    # - "examples/camera_poses/test_camera_Round-ZoomIn.json"
+    # - "examples/camera_poses/test_camera_SPIN-DU.json"
+    #- "examples/camera_poses/test_camera_SPIN-LR.json"
+
+
+# PanRight
+- inference_config: "configs/inference/inference-v3.yaml"
+  motion_module:    "models/Motion_Module/v3_sd15_mm.ckpt"
+  cmcm_checkpoint_path: "models/MotionCtrl/motionctrl_animatediff_cmcm.ckpt"
+
+#  motion_module_lora_configs:
+#    - path:  "models/MotionLoRA/v2_lora_PanRight.ckpt"
+#      alpha: 1.0
+
+  dreambooth_path: "models/DreamBooth_LoRA/realisticVisionV60B1_v51VAE.safetensors"
+  lora_model_path: ""
+
+  seed:           43242532350557906
+  steps:          25
+  guidance_scale: 7.5
+
+  prompt:
+    - "majestic dragon standing perfectly still over a mystical forest, its glowing scales and fiery eyes unmoving as the camera pans horizontally to the right, revealing the vast forest and distant mountains, ultra-realistic, 8k, dynamic lighting, high contrast, dslr, detailed textures, fantasy art, epic scene"
+  n_prompt:
+    - "blur, cartoon, cgi, 3d, rotating camera, distorted anatomy, turning dragon, deformed wings, extra limbs, poor detail, low quality, pixelated, toy-like, artificial, bad textures, flat, camera rotation"
+  RT_paths:
+    #- "examples/camera_poses/test_camera_d971457c81bca597.json"
+    - "examples/camera_poses/test_camera_R_1.0x.json"
+    - "examples/camera_poses/test_camera_R_2.0x.json"
+    # - "examples/camera_poses/test_camera_Round-ZoomIn.json"
+    # - "examples/camera_poses/test_camera_SPIN-DU.json"
+    #- "examples/camera_poses/test_camera_SPIN-LR.json"
+
+      

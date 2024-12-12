@@ -1,0 +1,182 @@
+- inference_config: configs/inference/inference-v2.yaml
+  motion_module: models/Motion_Module/mm_sd_v15_v2.ckpt
+  motion_module_lora_configs:
+  - path: models/MotionLoRA/v2_lora_PanRight.ckpt
+    alpha: 1.0
+  dreambooth_path: models/DreamBooth_LoRA/realisticVisionV60B1_v51VAE.safetensors
+  lora_model_path: ''
+  seed: 43242532350557906
+  steps: 25
+  guidance_scale: 7.5
+  prompt:
+  - photo of coastline, rocks, storm weather, wind, waves, lightning, 8k uhd, dslr,
+    soft lighting, high quality, film grain, Fujifilm XT3
+  n_prompt:
+  - blur, haze, deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch,
+    cartoon, drawing, anime, mutated hands and fingers, deformed, distorted, disfigured,
+    poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs,
+    disconnected limbs, mutation, mutated, ugly, disgusting, amputation
+  W: 512
+  H: 512
+  L: 16
+  random_seed:
+  - 43242532350557906
+- inference_config: configs/inference/inference-v2.yaml
+  motion_module: models/Motion_Module/mm_sd_v15_v2.ckpt
+  motion_module_lora_configs:
+  - path: models/MotionLoRA/v2_lora_PanRight.ckpt
+    alpha: 1.0
+  dreambooth_path: models/DreamBooth_LoRA/realisticVisionV60B1_v51VAE.safetensors
+  lora_model_path: ''
+  seed: 43242532350557906
+  steps: 25
+  guidance_scale: 7.5
+  prompt:
+  - cinematic portrait of a young woman with long flowing hair, intense gaze, natural
+    lighting, bokeh background, ultra-realistic, 8k resolution, studio lighting, Canon
+    EOS, high detail, vibrant colors, detailed eyes, perfect skin
+  n_prompt:
+  - blur, pixelated, cgi, cartoon, sketch, 3d, distorted face, wrong anatomy, deformed
+    eyes, deformed nose, extra eyes, low quality, bad lighting, wrong proportions,
+    distorted hands, exaggerated expression, missing facial features, uncanny valley
+  W: 512
+  H: 512
+  L: 16
+  random_seed:
+  - 43242532350557906
+- inference_config: configs/inference/inference-v2.yaml
+  motion_module: models/Motion_Module/mm_sd_v15_v2.ckpt
+  motion_module_lora_configs:
+  - path: models/MotionLoRA/v2_lora_PanRight.ckpt
+    alpha: 1.0
+  dreambooth_path: models/DreamBooth_LoRA/realisticVisionV60B1_v51VAE.safetensors
+  lora_model_path: ''
+  seed: 43242532350557906
+  steps: 25
+  guidance_scale: 7.5
+  prompt:
+  - majestic lion walking through a golden savannah, setting sun, ultra-realistic,
+    8k, detailed fur, dramatic lighting, Canon EOS R5, wildlife photography, dynamic
+    composition, nature, cinematic
+  n_prompt:
+  - blur, cgi, cartoon, 3d, unrealistic, distorted, mutated animals, extra limbs,
+    missing limbs, poor anatomy, poorly drawn, bad proportions, floating fur, low
+    quality, lack of detail, toy-like, artificial
+  W: 512
+  H: 512
+  L: 16
+  random_seed:
+  - 43242532350557906
+- inference_config: configs/inference/inference-v2.yaml
+  motion_module: models/Motion_Module/mm_sd_v15_v2.ckpt
+  motion_module_lora_configs:
+  - path: models/MotionLoRA/v2_lora_PanRight.ckpt
+    alpha: 1.0
+  dreambooth_path: models/DreamBooth_LoRA/realisticVisionV60B1_v51VAE.safetensors
+  lora_model_path: ''
+  seed: 43242532350557906
+  steps: 25
+  guidance_scale: 7.5
+  prompt:
+  - futuristic humanoid robot standing in a high-tech lab, sleek design, mechanical
+    arms, LED lights, chrome finish, ultra-realistic, 8k, high detail, dslr, sci-fi,
+    sharp lines, intricate design, dynamic lighting
+  n_prompt:
+  - blur, cgi, 3d render, cartoon, sketch, poor quality, low detail, poorly drawn,
+    toy-like, plastic, deformed, disjointed limbs, wrong proportions, crude textures,
+    unrealistic, broken parts, cheap design
+  W: 512
+  H: 512
+  L: 16
+  random_seed:
+  - 43242532350557906
+- inference_config: configs/inference/inference-v2.yaml
+  motion_module: models/Motion_Module/mm_sd_v15_v2.ckpt
+  motion_module_lora_configs:
+  - path: models/MotionLoRA/v2_lora_PanRight.ckpt
+    alpha: 1.0
+  dreambooth_path: models/DreamBooth_LoRA/realisticVisionV60B1_v51VAE.safetensors
+  lora_model_path: ''
+  seed: 43242532350557906
+  steps: 25
+  guidance_scale: 7.5
+  prompt:
+  - breathtaking mountain landscape, clear blue sky, river running through the valley,
+    pine trees, ultra-realistic, 8k, dslr, golden hour lighting, soft shadows, detailed
+    textures, high quality
+  n_prompt:
+  - blur, haze, pixelated, low resolution, cgi, 3d render, cartoon, distorted, bad
+    perspective, bad textures, wrong lighting, poor shadows, floating objects, unnatural
+    colors, fake
+  W: 512
+  H: 512
+  L: 16
+  random_seed:
+  - 43242532350557906
+- inference_config: configs/inference/inference-v2.yaml
+  motion_module: models/Motion_Module/mm_sd_v15_v2.ckpt
+  motion_module_lora_configs:
+  - path: models/MotionLoRA/v2_lora_PanRight.ckpt
+    alpha: 1.0
+  dreambooth_path: models/DreamBooth_LoRA/realisticVisionV60B1_v51VAE.safetensors
+  lora_model_path: ''
+  seed: 43242532350557906
+  steps: 25
+  guidance_scale: 7.5
+  prompt:
+  - futuristic city skyline at night, glowing neon lights, flying vehicles, skyscrapers
+    with intricate architecture, ultra-realistic, 8k, dslr, dynamic lighting, high
+    contrast, cyberpunk theme, vibrant colors
+  n_prompt:
+  - blur, cgi, cartoon, 3d render, pixelated, low quality, wrong lighting, deformed
+    buildings, wrong proportions, toy-like, plastic, poorly drawn, artificial, low
+    detail
+  W: 512
+  H: 512
+  L: 16
+  random_seed:
+  - 43242532350557906
+- inference_config: configs/inference/inference-v2.yaml
+  motion_module: models/Motion_Module/mm_sd_v15_v2.ckpt
+  motion_module_lora_configs:
+  - path: models/MotionLoRA/v2_lora_PanRight.ckpt
+    alpha: 1.0
+  dreambooth_path: models/DreamBooth_LoRA/realisticVisionV60B1_v51VAE.safetensors
+  lora_model_path: ''
+  seed: 43242532350557906
+  steps: 25
+  guidance_scale: 7.5
+  prompt:
+  - colorful coral reef with a variety of fish, clear blue water, sun rays penetrating
+    the ocean surface, ultra-realistic, 8k, dslr, high detail, vibrant colors, dynamic
+    composition, marine life, serene atmosphere
+  n_prompt:
+  - blur, cgi, cartoon, 3d, distorted, poor quality, pixelated, deformed animals,
+    low detail, fake water, unnatural lighting, lack of depth, toy-like, plastic
+  W: 512
+  H: 512
+  L: 16
+  random_seed:
+  - 43242532350557906
+- inference_config: configs/inference/inference-v2.yaml
+  motion_module: models/Motion_Module/mm_sd_v15_v2.ckpt
+  motion_module_lora_configs:
+  - path: models/MotionLoRA/v2_lora_PanRight.ckpt
+    alpha: 1.0
+  dreambooth_path: models/DreamBooth_LoRA/realisticVisionV60B1_v51VAE.safetensors
+  lora_model_path: ''
+  seed: 43242532350557906
+  steps: 25
+  guidance_scale: 7.5
+  prompt:
+  - majestic dragon flying over a mystical forest, glowing scales, fiery eyes, ultra-realistic,
+    8k, dynamic lighting, high contrast, dslr, detailed textures, fantasy art, epic
+    scene
+  n_prompt:
+  - blur, cartoon, cgi, 3d, distorted anatomy, deformed wings, extra limbs, poor detail,
+    low quality, pixelated, toy-like, artificial, unrealistic, bad textures, flat
+  W: 512
+  H: 512
+  L: 16
+  random_seed:
+  - 43242532350557906
